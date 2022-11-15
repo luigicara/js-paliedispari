@@ -22,7 +22,7 @@ button.addEventListener('click',
             esito = "Mi dispiace, hai perso!";
         }
 
-        div.innerHTML = `${esito} Hai scelto ${inputNumber.value} e il PC ha scelto ${pcNumber}, la cui somma è ${risultato} e tu hai scommesso: ${inputSelect.value}.`
+        div.innerHTML = `${esito} Hai scelto ${inputNumber.value} e il PC ha scelto ${pcNumber}, la cui somma è ${risultato} e tu hai scommesso: ${inputSelect.value}.`;
     }
 )
 
