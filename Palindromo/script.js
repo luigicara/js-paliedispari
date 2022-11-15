@@ -6,6 +6,8 @@ checkPalindrome(word);
 
 function checkPalindrome(string) {
 
+    string = string.replace(/\s+/g, '');
+
     const arrayValues = string.split('');
 
     const reverseArrayValues = arrayValues.reverse();
@@ -13,7 +15,7 @@ function checkPalindrome(string) {
     const reverseString = reverseArrayValues.join('');
 
     let result;
-    
+
     if(string == reverseString) {
         result = `La parola: ${word} è palindroma!`;
     }
